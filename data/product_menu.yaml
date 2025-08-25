@@ -1,0 +1,76 @@
+# 产品配置
+products:
+  # 基础产品
+  project:
+    name: "ONES Project"
+    desc: "项目管理"
+    group: "基础产品"
+    path: "/product/project"
+
+  wiki:
+    name: "ONES Wiki"
+    desc: "知识库管理"
+    group: "基础产品"
+    path: "/product/wiki"
+
+  # 应用
+  testcase:
+    name: "ONES TestCase"
+    desc: "测试管理"
+    group: "应用"
+    path: "/apps/testcase"
+
+  plan:
+    name: "ONES Plan"
+    desc: "项目集管理"
+    group: "应用"
+    path: "/apps/plan"
+
+  performance:
+    name: "ONES Performance"
+    desc: "效能管理"
+    group: "应用"
+    path: "/apps/performance"
+
+  automation:
+    name: "ONES Automation"
+    desc: "流程自动化"
+    group: "应用"
+    path: "/apps/automation"
+
+  desk:
+    name: "ONES Desk"
+    desc: "工单管理"
+    group: "应用"
+    path: "/apps/desk"
+
+  account:
+    name: "ONES Account"
+    desc: "企业级账号目录"
+    group: "应用"
+    path: "/apps/account"
+
+  task:
+    name: "ONES Task"
+    desc: "任务协作"
+    group: "应用"
+    path: "/apps/task"
+
+  resource:
+    name: "ONES Resource"
+    desc: "资源管理"
+    group: "应用"
+    path: "/apps/resource"
+
+  # ONES AI
+  ai:
+    name: "ONES Copilot"
+    desc: "AI 助手"
+    group: "ONES AI"
+    path: "/ai/copilot"
+
+# 分组顺序（可选）
+group_order:
+  - "基础产品"
+  - "应用"
+  - "ONES AI"

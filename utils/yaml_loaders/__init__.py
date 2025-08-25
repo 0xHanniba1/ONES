@@ -1,4 +1,2 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
-BASE_URL = "https://ones.cn"
