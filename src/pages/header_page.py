@@ -11,8 +11,6 @@ class HeaderPage(BasePage):
 
     PRODUCT_MENU = (By.ID, "header_menu_menu_product")
     PRODUCT_DROPDOWN = (By.CSS_SELECTOR, "#header_menu_menu_product div.ease-in-panel-content")
-    # css统一定位 #header_menu_menu_product a[href='/products/{name}']
-    ONES_PROJECT = (By.CSS_SELECTOR, "#header_menu_menu_product a[href='/products/project']")
 
     SOLUTION_MENU = (By.ID, "header_menu_menu_solution")
     SOLUTION_DROPDOWN = (By.CSS_SELECTOR, "#header_menu_menu_solution div.ease-in-panel-content")
